@@ -1,0 +1,113 @@
+/* Hoja de estilo css para la app de proyectos*/
+
+body {
+    background-color: #C7C7C7;
+}
+p{
+    overflow-wrap: break-word; /* Ajustar texto de los párrafos al bloque */
+}
+.block{
+    font-family: "Segoe IU", sans-serif;
+    position: relative;
+}
+#title-block{
+    color: #287CE0;
+    background-color: #9A8FD3;
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin-left: 10%;
+    border-radius: 20px 20px 20px 20px;
+}
+#title1 {
+    color: #220F83;
+    font-weight: bold;
+    font-size: 200%;
+    position: absolute;
+    transform: translate(0, -30%); /* Ajustar al centro-izquierda*/
+}
+#title2 {
+    color: white;
+    font-style: italic;
+    font-size: 120%;
+    position: absolute;
+    top: 30%;
+    left: 90%;
+    transform: translate(-90%, -30%); /* Ajustar al centro-derecha*/
+    white-space: nowrap; /* Texto en una única línea*/
+}
+#create-block1{
+    color: white;
+    background-color: #28479D;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 30%;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 10px;
+}
+#create-block2{
+    color: white;
+    background-color: #28479D;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 30%;
+    height: 350px;
+    margin-left: 35%;
+    padding: 10px;
+    text-align: center;
+}
+#send-button{
+    background-color: #31DFA0;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+}
+#done-button{
+    background-color: #31DFA0;
+    color: white;
+    padding: 10px 15px;
+    font-size: 10px;
+    margin: 5px;
+    border: none;
+}
+#ToDo-block1{
+    color: white;
+    background-color: #28479D;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 50%;
+    height: 40px;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 10px;
+}
+#Task-block{
+    color: white;
+    background-color: #28479D;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 40%;
+    height: 350px;
+    margin-left: 30%;
+    padding: 10px;
+    text-align: center;
+}
+#Done-block1{
+    color: white;
+    background-color: #28479D;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 50%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 25%;
+    padding: 10px;
+}

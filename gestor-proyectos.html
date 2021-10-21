@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Project Manager</title>
+    <link rel="stylesheet" href="gestor-proyectos.css">
+    <script src="gestor-proyectos.js" defer></script>
+  </head>
+
+  <body>
+    <div class="block" id="title-block">
+        <div id="title1">
+            <p>ToDo App</p>
+        </div>
+        <div id="title2">
+            <p>Aplicación para la gestión de proyectos</p>
+        </div>
+    </div>
+
+    <div class="block" id="create-block1">
+        <p>CREATE</p>
+    </div>
+    <div class="block" id="create-block2">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo" size="10" required>
+        <br><br>
+        <label for="tags">Tags</label>
+        <input type="text" id="tags" name="tags" size="10" required>
+        <br><br>
+        <label for="descripcion">Descripción</label>
+        <br>
+        <textarea id="descripcion" name="descripcion" rows="12" cols="25" required></textarea>
+        <br>
+        <button type="button" id="send-button">Enviar</button>
+    </div>
+
+    <div id="ToDo-block1">
+        TO DO
+    </div>
+
+    <div id="ToDo-block2"></div>
+
+    <div id="Done-block1">
+        DONE
+    </div>
+
+    <div id="Done-block2"></div>
+  </body>
+
+</html>
